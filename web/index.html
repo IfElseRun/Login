@@ -1,0 +1,53 @@
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Promet Source Project Example">
+      <meta name="author" content="Adna Zujo Lakisic">
+      <title>Promet Source Project</title>>
+      <!-- Bootstrap CSS -->
+      <link href="styles/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom style -->
+      <link href="styles/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <form class="form-signin">
+         <div class="text-center mb-4">
+            <img class="mb-4" src="https://www.prometsource.com/themes/custom/promet/logo.png" alt="" width="300" height="100">
+            <h1 class="h3 mb-3 font-weight-normal text-left">Login to your account</h1>
+         </div>
+         <div class="form-label-group">
+            <input type="email" id="inputEmail" name="username" class="form-control" placeholder="Your e-mail address" required="" autofocus="">
+            <label for="inputEmail">Email address</label>
+         </div>
+         <div class="form-label-group">
+            <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="">
+            <label for="inputPassword">Password</label>
+         </div>
+         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+
+      <div class="modal user_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Welcome <span class="span_username"></span></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Hello <span class="span_username"></span>, your id is <span class="span_userId"></span></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Scripts -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/index.js"></script>
+   </body>
+</html>

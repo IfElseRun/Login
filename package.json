@@ -1,0 +1,15 @@
+{
+  "name": "promet-source-project",
+  "version": "1.0.0",
+  "description": "Promet Source Project Excercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Adna Zujo Lakisic",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.1"
+  }
+}
